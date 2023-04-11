@@ -1,2 +1,9 @@
-package controller;public class Controller {
+package controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class Controller {
+
+
 }
