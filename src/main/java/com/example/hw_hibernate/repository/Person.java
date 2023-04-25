@@ -1,4 +1,4 @@
-package repository;
+package com.example.hw_hibernate.repository;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -16,11 +16,11 @@ import lombok.NoArgsConstructor;
 public class Person {
     @Id
     private String name;
-    @Id
     private String surename;
-    @Id
     private int age;
+
     private long phoneNumber;
+
     @Column(nullable = false)
     private String cityOfLiving;
 
